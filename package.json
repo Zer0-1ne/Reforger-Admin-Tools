@@ -1,0 +1,38 @@
+{
+  "name": "reforger-admin-tools",
+  "version": "0.0.4",
+  "description": "A 3rd Party Javascript framework for monitoring and admining your Arma Reforger server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zer0-1ne/Reforger-Admin-Tools.git"
+  },
+  "keywords": [
+    "Reforger",
+    "Arma",
+    "Arma Reforger",
+    "RCON",
+    "Administration"
+  ],
+  "author": "Zer0-1ne",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Zer0-1ne/Reforger-Admin-Tools/issues"
+  },
+  "homepage": "https://github.com/Zer0-1ne/Reforger-Admin-Tools#readme",
+  "dependencies": {
+    "basic-ftp": "^4.6.0",
+    "body-parser": "^1.20.3",
+    "chokidar": "^4.0.3",
+    "discord.js": "^14.17.3",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "rcon-client": "^4.2.5",
+    "ssh2-sftp-client": "^1.0.25"
+  }
+}
